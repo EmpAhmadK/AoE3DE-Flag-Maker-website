@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-image: url(./aset/latar-utama.webp);
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Cinzel', 'Garamond', 'Times New Roman', serif;
+	color: #ECD573;
+}
+
+a {
+	color: #ECD573;
+	transition-duration: 0.5s;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FFDE00;
+	transition-duration: 0.5s;
+	text-decoration: underline;
+}
+
+h1 {
+	font-weight: 600;
+	font-size: 1.7em;
+	text-shadow: 0px 0px 10px black;
+}
+
+.pengepala {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	max-height: 100px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-image: url(./aset/latar-pengepala.webp);
+	background-size: cover;
+	background-position: center;
+	box-shadow: 0px 0px 10px 5px black;
+}
+
+.pengepala-isi {
+	margin: auto;
+	text-align: center;
+	font-size: 2.8em;
+	line-height: 1.1;
+	font-weight: 600;
+}
+
+.badan {
+	background-image: url(./aset/latar-hadapan.webp);
+	padding: 80px;
+	margin: auto;
+	margin-top: 150px;
+	max-width: 900px;
+	border: solid 2px;
+	border-radius: 4px;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: 500;
+}
+
+.bekas {
+	background-image: url(./aset/latar-bekas.webp);
+	width: 852px;
+	height: 564px;
+	margin: auto;
+	background-size: cover;
+}
+
+.butang {
+	border: solid 2px;
+	border-radius: 5px;
+	padding: 10px;
+	background-image: url(./aset/latar-pengepala.webp);
+	background-size: cover;
+	background-position: center;
+	box-shadow: 0px 0px 10px black;
+	position: relative;
+	top: 0px;
+}
+
+.butang:hover {
+	background-image: url(./aset/latar-utama.webp);
+	box-shadow: 0px 0px 10px 3px black;
+	position: relative;
+	top: 0px;
+}
+
+.butang:active {
+	position: relative;
+	top: 2px;
+}
+
+.butang-bekasPautan {
+	max-width: 280px;
+	margin: 15px auto;
+}
+
+a.butang-pautan:hover {
+	text-decoration: none;
+	color: #ECD573;
+}
+
+.penafian {
+	margin:15px;
+	text-align: center;
+	font-weight: 700;
+	color: #574531;
+	font-size: 1.1em;
+}
+
+.pengaki {
+	width: 100%;
+	max-height: 128px;
+	padding-top: 26px;
+	padding-bottom: 26px;
+	background-image: url(./aset/latar-pengepala.webp);
+	background-size: cover;
+	background-position: center;
+}
