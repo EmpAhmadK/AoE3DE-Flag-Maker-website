@@ -128,10 +128,6 @@ a.butang-pautan:hover {
 	background-position: center;
 }
 
-.butang-sorok:active {
-	content: "Click"
-}
-
 .butang-sorok:active:after {
 	content: ": ahmadalikarimomar@hotmail.com";
 }
