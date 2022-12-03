@@ -34,7 +34,8 @@
 				The tool is made for the entire Age of Empires community and is free to be used by anyone.
 				<br><br>
 				You can download the tool via the button below.
-				<div class="butang-bekasPautan"><a href="https://drive.google.com/uc?id=15u5Q_Fa2wjJKERCUm3CcdQbSUcaSI0pN&export=download" class="butang-pautan"><div class="butang">DOWNLOAD TOOL</div></a></div>
+				<audio id="bunyiTekanBesar" src="./aset/bunyi/tekanBesar.wav" preload="auto"></audio>
+				<div class="butang-bekasPautan" onclick="document.getElementById('bunyiTekanBesar').play();"><a href="https://drive.google.com/uc?id=15u5Q_Fa2wjJKERCUm3CcdQbSUcaSI0pN&export=download" class="butang-pautan"><div class="butang">DOWNLOAD TOOL</div></a></div>
 				Current version:<br>
 				V.1.0.2.2. - Released on 02 December 2022<br>
 				(view changelog in readme file)
@@ -45,7 +46,16 @@
 			For any questions or enquiries, feel free to contact me (Ahmad / Julien) through the mediums listed below:
 			<br><br>
 			Discord: @EmpAhmadK#9589<br>
-			<span class="butang-sorok-bekasPautan"><span class="butang-sorok">Email</span></span>
+			<audio id="bunyiTekanKecil" src="./aset/bunyi/tekanKecil.wav" preload="auto"></audio>
+			<span class="butang-sorok-bekasPautan" onclick="document.getElementById('bunyiTekanKecil').play();"><span class="butang-sorok" onclick="salinAlamat()">Email</span></span>
+				<script>
+					function salinAlamat() {
+
+					// Copy the text inside the text field
+					navigator.clipboard.writeText("ahmadalikarimomar@hotmail.com");
+					
+					}
+				</script>
 		</div>
 	</div>
 	<div class="pengepala">
