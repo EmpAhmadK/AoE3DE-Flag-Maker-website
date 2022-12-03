@@ -125,3 +125,34 @@ a.butang-pautan:hover {
 	background-size: cover;
 	background-position: center;
 }
+
+.butang-sorok:active {
+	display:nonae;
+}
+
+.butang-sorok:active:after {
+	content: ": ahmadalikarimomar@hotmail.com";
+}
+
+.butang-sorok-bekasPautan {
+	min-width: 280px;
+	margin: 15px auto;
+	border: solid 2px;
+	border-radius: 5px;
+	padding: 0px 10px;
+	background-image: url(./aset/latar-pengepala.webp);
+	background-size: cover;
+	background-position: center;
+	box-shadow: 0px 0px 10px black;
+	position: relative;
+	top: 0px;
+}
+
+a.butang-sorok-pautan:hover {
+	text-decoration: none;
+	color: #ECD573;
+	background-image: url(./aset/latar-utama.webp);
+	box-shadow: 0px 0px 10px 3px black;
+	position: relative;
+	top: 0px;
+}
